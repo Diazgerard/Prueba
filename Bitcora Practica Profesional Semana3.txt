@@ -1,0 +1,48 @@
+Bitcora Practica Profesional Semana3
+
+
+Lunes 2 de Febrero 2026
+8am - 12pm
+Imports necesarios para el analisis descriptive
+1pm-5pm
+Entendimiento de las variables del dataset
+
+Martes 3 de Febrero 2026
+8am - 12pm
+Leer y verificar variables del dataset
+1pm-5pm
+Hacer todas las descargas para trabajar en python, hacer todos los imports necesario y unir todos los datates
+Hacer la cargar de los datasets
+Hacer el paso 3 Analsis descriptive con sus tipo de variables y hacer la consistencia y reglas basicas
+
+Miercoles 4 de Febrero 2026
+8am - 12pm
+Hacer bincarizacion de algunas variables
+Hacer la distribucion de los datos
+hacer la deteccion de valores atipicos
+1pm - 5pm
+Estadictivas descrptivas, las basicas y las avanzadas
+Hacer el test de normalidad
+
+Jueves 5 de Febrero 2026
+8am - 12pm
+Reunion para el valor de negocio
+Realizar matriz de correlacion
+mejora de variables en el codigo
+1pm -  5pm 
+Reunion daily
+distribucionde las variables en el AD
+Sprint Review
+
+
+Viernes 6 de Febrero 2026
+8am - 12pm 
+convivio del dia del practicante
+reunion para revisar el analisis descriptivo
+1pm - 5pm
+Corregir pequños detalles del notebook y formular hipotesis
+
+
+
+
+

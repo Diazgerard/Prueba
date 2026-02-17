@@ -1,0 +1,37 @@
+Bitcora Practica Profesional Semana2
+
+Lunes 26 de Enero 2026:
+8am - 12pm
+Con acceso a la red, comenzar a poner en pracica como funciona AWS
+1pm - 5pm
+Comenzar un csv de practica para realizar un Notebook haciendo cluste k-means
+
+Martes 27 de Enero 2026:
+8am - 12pm
+Finalizar los ultimos detalles de codigo para el notebook
+1pm - 5pm
+Meeting para explicar como deberia trabar con el proyecto
+estudiar lo que es Pipelines en sagemaker
+
+Miercoles 28 de Enero 2026:
+8am-12pm
+Comienza la daily meeting
+Analizar la diferencias entre K-means y DBSCAN
+1pm - 5pm
+Revision del proceso de como hacen que los modelos funcionen en la empresa
+
+Jueves 29 de Enero 2026:
+8am-12pm
+Comienza la daily meeting
+Estudio de metricas para que el K-means
+1pm-5pm
+Estudio del entedimiento de variables descriptivas para el K-means
+Instalacion de Python, Visual y Power Bi
+
+
+Viernes 30 de Enero 2026:
+8am-12pm
+Comienza la daily meeting
+Hacer la planificacion de como sera hara un analisis descriptiva
+1pm-5pm
+Investigacion de metricas para el analisis de datos

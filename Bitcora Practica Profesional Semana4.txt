@@ -1,0 +1,41 @@
+Bitcora Practica Profesional Semana4
+
+Lunes 9 de Febrero 2026
+8am - 12pm
+Comenzar hacer el feature engineering, analizar bien el dataset y ver mas errores como de dups, del DataFrame
+creacion de hipostesis
+Parquet hacia csv
+1pm - 5pm
+Analisis final
+Ver la posibilidades de Feature Engineering
+
+Martes 10 de Febrero 2026
+8am-12pm 
+Daily meeting ver como hacen agree en la horas que se deberian de tardar con el trabajo
+hablar de las corrections y crear pairplots
+1pm-5pm
+Continuar con la creation de pairplots para major entendimiento el problema
+creacion de features para core y data
+
+Miercoles 11 de Febrero 2026
+8am - 12pm
+Creacion de 3 versions de pairplots
+hacer el feature engineering para el clustering
+1pm - 12pm
+comenzar con la amputacion, escalado, pca y busqueda de K para el k-means
+
+
+Jueves 12 de Febrero 2026
+8am - 12pm
+investigar nuevas variables para el clustering
+1pm-5pm
+creacion de nuevas varibles para el clustering
+comenzar a correig y buscar K mas optimo
+
+Viernes 13 de febrero 2026
+8am-12pm
+Daily meeting 
+explicar las priera parte de codigo al ing
+1pm-5pm
+hacer el perfilamiento
+

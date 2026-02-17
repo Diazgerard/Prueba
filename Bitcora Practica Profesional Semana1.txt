@@ -1,0 +1,32 @@
+Bitcora Practica Profesional Semana1
+
+Lunes 19 de Enero 2026:
+8am - 12pm
+Induccion a la practica profesional se realiza la firma de documentos para realizar la practica y se hace un recorrido de toda la empresa.
+1pm - 5pm 
+Visitar el area y conocer el personal de donde trabajaria, entender las tecnologias que la empresa usa.
+
+
+Martes 20 de Enero 2026:
+8am - 12pm
+Seguimiento del proceso de la empresa, ingresar el biometrico y comenzar a pedir acceso a lo que es una computadora con su componentes necesarios.
+1pm - 5pm
+Leer los reglamentos de los practicantes de la empresa.
+
+Miercoles 21 de Enero 2026:
+8am - 12pm
+Entender el proyecto que estan haciendo y estudiar el algoritmo de Cluster Kmeans
+1pm - 5pm
+Seguir estudiando todo lo necesario para el k-means y ver algoritmos cercanos como DBSCAN
+
+Jueves
+8am - 12pm
+Sin acceso a computadora seguir el estudio de tecnicas como PCA
+1pm - 5pm
+Estudio de metricas como MAP y NDCG
+
+Viernes
+8am - 12pm
+Hacer el estudio de lo que es Data Storytelling
+1pm - 5pm
+Estudiar terminos y utilizacion de AWS.
