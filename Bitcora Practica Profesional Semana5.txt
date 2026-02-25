@@ -1,0 +1,32 @@
+Bitcora Practica Profesional Semana5
+
+Lunes 16 de Febrero del 2026
+8am - 12pm
+Perfilamiento de los clusters, entenders su significado y traducirlos
+1pm - 5pm 
+mejoras de visualizaciones y hacer una presentacion
+
+Martes 17 de Febrero del 2026
+8am - 12pm 
+Presentacion a los del area sobre el proceso de clustering non core nbo
+clustering funciona, ahora es de meterle mas variable y mejoras.
+1pm - 5pm
+mejorar el perfilamiento de los clusters studio de los users
+
+Miercoles 18 de Febrero del 2026
+8am -12pm
+Organizar el codigo
+1pm - 5pm
+Implementar la variables score
+
+Jueves 19 de Febrero del 2026
+8am-12pm
+Implemntar 9 varibles mas
+1pm-5pm 
+hacer la interpretacion de los resultados
+
+Viernes 
+8am-12om
+Seguir con la interpretacion de los resultados
+1pm-5pm
+Presentar los resultados a los compañeros y esperar nuevas task
