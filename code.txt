@@ -1,0 +1,55 @@
+code 
+
+df_recargas = pd.read_csv("../../1. Carga_Python/Datasets/Recargas.csv")
+df_cluster_with_key = pd.read_csv("../Modelo_Parte2/Visualizacion_Cluster/3. Perfilamiento/Key_W_Clusters.csv")
+
+#Crea un diccionario de ar_key
+
+cluster_dict = dict(zip(df_cluster_with_key["ar_key"], df_cluster_with_key["Cluster"]))
+def extraer_nombre_base(producto):
+    
+    if "_" in producto:
+        return producto.rsplit("_", 1)[0]
+    return producto
+
+def procesar_ar_key(ar_key, df_filtrado):
+    productos_agrupados = {}
+    for _, row in df_filtrado.iterrows():
+        compra = row["PRODUCT_NAME"]
+        nombre_base = extraer_nombre_base(compra)
+        
+        if nombre_base not in productos_agrupados:
+            productos_agrupados[nombre_base] = {
+                "ProductName": nombre_base,
+                "TXN": 0,
+                "REV_PD_LC": 0,
+                "ProductComponents": [] 
+            }
+        
+        productos_agrupados[nombre_base]["TXN"] += row["TXN"]
+        productos_agrupados[nombre_base]["REV_PD_LC"] += row["REV_PD_LC"]
+        
+        if "_" in compra and compra not in productos_agrupados[nombre_base]["ProductComponents"]:
+            productos_agrupados[nombre_base]["ProductComponents"].append(compra)
+            
+        cluster = cluster_dict.get(ar_key, "")
+            
+    resultado = {
+        "AR_KEY": ar_key_especifico,
+        "Cluster": cluster if cluster != "" else "",
+        "Producto": list(productos_agrupados.values())
+    }
+    
+    return resultado
+
+ar_keys_unicos = df_recargas["AR_KEY"].unique()
+
+todos_resultados = []
+for ar_key in ar_keys_unicos: 
+    df_filtrado = df_recargas[df_recargas["AR_KEY"] == ar_key]
+    resultado = procesar_ar_key(ar_key, df_filtrado)
+    todos_resultados.append(resultado)
+
+
+with open("Recargas_W_Cluster.json", "w", encoding="utf-8") as f:
+    json.dump(todos_resultados, f, indent=2, ensure_ascii=False)
