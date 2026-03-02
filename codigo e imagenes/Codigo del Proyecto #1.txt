@@ -1,0 +1,63 @@
+Codigo del Proyecto #1
+1. Intalacion 
+	1.1 Instalar Paquetes
+	1.2 Imports de Paquetes
+2. Carga y Revision del Dataset
+	2.1 Parquet to CSV
+	2.2 Unir los archivos de CSV en uno solo
+	2.3 Convertir todos los Datos a Datos Numericos
+	2.4 Binarizacion de Datos
+3. Analisis Descriptivo
+	3.1 Tipo de Variables en el Dataset
+	3.2 Clasificacion de Variables Numericas
+	3.3 Ordenar el DataFrame
+	3.4 Verificacion de Datos Nulos
+	3.5 Verificacion de Datos Duplicados
+	3.6 Verificacion de Datos Negativos
+	3.7 Calcular Variables Estadisticas de las Variables Numericas
+	3.8 Deteccion de Outliers
+	3.9 Visualizacion Exploratoria
+		3.9.1 Visualizacion de Distribuciones
+		3.9.2 Matriz de Correlacion
+		3.9.3 Pairplots
+4. Modelo Exploratorio
+	4.1 Hipotesis del Proyecto
+	4.2 Feature Engineering
+		4.2.1 Creacion de Features Core
+		4.2.2 Creacion de Metodos Generales
+		4.2.3 Calcular Features de Data
+		4.2.4 Calcular Features de ARPU
+		4.2.5 Calcular Features de Recarga
+		4.2.6 Calcular Features de Voice Incoming
+		4.2.7 Calcular Features de Voice Outgoing
+		4.2.8 Calcular Features de Ratio
+		4.2.9 Calcular Features de Score
+	4.3 Seleccion de Features
+	4.4 Preparar los datos
+		4.4.1 Verificacion de Datos Nulos
+		4.4.2 Verificacion de Datos Infinitos
+		4.4.3 Visualizacion de Datos
+	4.5 Normalizacion de los Datos
+		4.5.1 StandardScaler
+		4.5.2 Visualizacion de Datos
+	4.6 Buscar el numero de Clusters mas optimo
+		4.6.1 Buscar las Mejores Metricas
+		4.6.2 Visualizacion de Metricas
+	4.7 Clustering Final con Two Phase
+		4.7.1 Fase1
+		4.7.2 Fase2 
+	4.8 Perfilamiento de Datos
+		4.8.1 Preparacion de Datos
+		4.8.2 Calcular Diferencias
+		4.8.3 Visualizacion de Top Fortalezas del Cluster
+		4.8.4 Visualizacion de Top Debilidades del Cluster
+		4.8.5 Visualizacion de todas las Features
+		4.8.6 Resumen por Categoria
+		4.8.8 Interpretacion Automatica
+	4.9 Visualizacion PCA
+5. Estudio Especificos de Cada Cluster
+	5.1 Estudio Digital
+	5.2 Perfilamiento de Dispositivos
+	5.3 Estudio de Favoritos
+		5.3.1 Recargas Favoritos
+		5.3.2 Navegacion Favorita 
